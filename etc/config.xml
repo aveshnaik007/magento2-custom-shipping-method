@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <store_shipping>
+                <active>1</active>
+                <model>Learningmagento\CustomShipping\Model\Carrier\Storeship</model>
+                <name>Local Shipping</name>
+                <title>Local Shipping</title>
+                <price>5</price>
+            </store_shipping>
+        </carriers>
+    </default>
+</config>
